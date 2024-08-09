@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Passenger counter app</title>
+    <style>
+        button {
+            font-size: 0.8rem;
+            padding: 10px 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+            background-color: #007BFF;
+            color: white;
+        }
+        .count{
+            background-color: #dc3545;
+        }
+
+        
+    </style>
 </head>
 <body>
     <header>
@@ -16,7 +32,7 @@
 
         <div class="btn">
             <button onclick="addOne()">Add</button>
-            <button onclick="newCount()">new count</button>
+            <button onclick="newCount()" class="count">new count</button>
         </div>
     </main>
     
